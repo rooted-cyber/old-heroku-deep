@@ -1,0 +1,11 @@
+git clone https://github.com/TeamUltroid/Ultroid
+cd Ultroid
+cat >> .env << EOF
+API_ID=9288027
+API_HASH=84c93f0959801dbf57eed1f91a97bdec
+REDIS_URI=redis-17626.c8.us-east-1-2.ec2.cloud.redislabs.com:17626
+REDIS_PASSWORD=1IKKdEGucGqQFcbwEP04WFbdhCcCzRpo
+SESSION=1BVtsOIEBu5O9sQfef9tSIB-lrUqwtvdLI2YUDAJrV9MHQbS8wozNSq2nrLCgjbK7EI_vMGIv43vDsX8n--TGxjz0AGXX6RlytINtel9rQ1Tizi23Nck3LBCT7WQDozX23-HfAjkGa6A6Dau-tw-kJm9SLLi2TUBFI2dfk1pdaQaXZOrrnoyiB67QdWeWIZum-ljrZqTMsiHZM5f9xgPTd3mhSRjHo2DNpPIFK-TbupGXKqesN4Gh_SBHSI4KhPjZcG2FCewEESAEHe1V6vVVH7RGtj0EgWM6dhS-sx6150rnm2NNCy8T0dxSPfeCH-MGchDvB4LiBhcAt19mEdVK9uVh9-orsdI=
+EOF
+chmod -R 777 .*
+bash startup
